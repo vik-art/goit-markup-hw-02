@@ -115,6 +115,7 @@ footer {
 }
 .smaller-type {
     font-size: 22px;
+    color: var(--white-text-color);
 }
 footer address {
     color: var(--white-text-color);
