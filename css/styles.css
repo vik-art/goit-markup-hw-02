@@ -33,7 +33,7 @@ a {
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
     line-height: 1.2;
-    font-weight: bold;
+    font-weight: 700;
     letter-spacing: 0.03em;
 }
 .logo>span {
@@ -71,7 +71,7 @@ h1 {
 .to-order {
     color: var(--white-text-color);
     font-size: 16px;
-    font-weight: bold;
+    font-weight: 700;
     line-height: 1.8;
     background-color: var(--accent-bg-color);
 }
@@ -79,7 +79,7 @@ h1 {
     color: var(--primary-text-color);
     font-size: 14px;
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: 700;
     letter-spacing: 0.03em;
     line-height: 1.2;
 }
@@ -89,7 +89,7 @@ h1 {
 }
 .section-heading {
     color: var(--primary-text-color);
-    font-weight: bold;
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.2;
     letter-spacing: 0.03em
@@ -105,7 +105,7 @@ h1 {
     letter-spacing: 0.03em;
 }
 .our-comand p {
-    font-weight: normal;
+    font-weight: 400;
     color: var(--secondary-text-color);
 }
 /*---------------------------------------footer-----------------*/
@@ -126,7 +126,7 @@ address span {
 }
 .footer-links {
     color: var(--white-text-color);
-    font-weight: bold;
+    font-weight: 700;
     text-transform: uppercase;
     font-size: 14px;
     line-height: 1.2;
@@ -167,7 +167,7 @@ address span {
     color: var(--white-text-color);
     background-color: var(--accent-bg-color);
     font-size: 18px;
-    font-weight: normal;
+    font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.03em;
 }
