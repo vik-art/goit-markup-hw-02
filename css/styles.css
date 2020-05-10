@@ -4,15 +4,18 @@
 акцент #2196F3
 основной цвет фона #E5E5E5
 дополнительный цвет фона #F5F4FA
+цвет фона в футере #2F303A
 */
+/* общая стилизация */
 :root {
---primary-text-color: #212121;
---secondary-text-color: #757575;
---white-text-color: #FFFFFF;
---accent-text-color: #2196F3; 
---main-bg-color: #E5E5E5;
---secondary-bg-color: #F5F4FA;
---accent-bg-color: #2196F3;
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --white-text-color: #FFFFFF;
+    --accent-text-color: #2196F3; 
+    --main-bg-color: #E5E5E5;
+    --secondary-bg-color: #F5F4FA;
+    --third-bg-color: #2F303A;
+    --accent-bg-color: #2196F3;
 }
 body {
     font-family: 'Roboto', sans-serif;
@@ -25,11 +28,13 @@ a {
     text-decoration: none;
     color: var(--primary-text-color);
 }
+/*-------------------------Header главная страница---------------------------*/
 .logo {
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
     line-height: 1.2;
     font-weight: bold;
+    letter-spacing: 0.03em;
 }
 .logo>span {
     color: var(--accent-text-color);
@@ -52,6 +57,7 @@ a {
     color: var(--accent-text-color);
     cursor: pointer;
 }
+/*---------------------------секции домашней страницы----------------------------------*/
 h1 {
     color: var(--white-text-color);
     font-weight: 900;
@@ -79,7 +85,6 @@ h1 {
 .white {
     color: var(--white-text-color);
     background: rgba(47, 48, 58, 0.8);
-    
 }
 .section-heading {
     color: var(--primary-text-color);
@@ -87,5 +92,76 @@ h1 {
 .secion-text {
     color: var(--secondary-text-color);
     line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+.our-comand h3,p {
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+}
+.our-comand p {
+    font-weight: normal;
+    color: var(--secondary-text-color);
+}
+/*---------------------------------------footer-----------------*/
+footer {
+    background-color: var(--third-bg-color);
+    letter-spacing: 0.03em;
+}
+.smaller-type {
+    font-size: 22px;
+}
+footer address {
+    color: var(--white-text-color);
+    font-style: normal;
+}
+address span {
+    color: rgba(255, 255, 255, 0.6);
+}
+.footer-links {
+    color: var(--white-text-color);
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 1.2;
+}
+.copyright {
+    font-size: 12px;
+    line-height: 2;
+    color: rgba(255, 255, 255, 0.4);
+}
+/*---------------------------------------Портфолио----------------------------*/
+.nav-button {
+    color: var(--primary-text-color);
+    background-color: var(--secondary-bg-color);
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+}
+.nav-button:hover, .nav-button:focus {
+    color: var(--white-text-color);
+    background-color: var(--accent-bg-color);
+}
+.projects-title {
+    color: var(--primary-text-color);
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.projects-type {
+    color: var(--secondary-text-color);
+    font-size: 16px;
+    line-height: 1.8;
+    letter-spacing: 0.03em;
+}
+.projects-text {
+    color: var(--white-text-color);
+    background-color: var(--accent-bg-color);
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.5;
     letter-spacing: 0.03em;
 }
