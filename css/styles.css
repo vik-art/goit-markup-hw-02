@@ -41,7 +41,6 @@ a {
 }
 .main-navigation {
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
@@ -52,6 +51,8 @@ a {
 .contact-navigation {
     color: var(--secondary-text-color);
     font-weight: 500;
+    letter-spacing: 0.02em;
+    line-height: 1.1;
 }
 .contact-navigation:hover {
     color: var(--accent-text-color);
@@ -88,6 +89,10 @@ h1 {
 }
 .section-heading {
     color: var(--primary-text-color);
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: 0.03em
 }
 .secion-text {
     color: var(--secondary-text-color);
