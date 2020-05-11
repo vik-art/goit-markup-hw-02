@@ -48,6 +48,9 @@ a {
 .main-navigation:focus {
     color: var(--accent-text-color);
 }
+.main-navigation:active {
+    color: var(--accent-text-color);
+}
 .contact-navigation {
     color: var(--secondary-text-color);
     font-weight: 500;
@@ -96,6 +99,7 @@ h1 {
 }
 .secion-text {
     color: var(--secondary-text-color);
+    font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
 }
